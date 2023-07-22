@@ -1,3 +1,40 @@
-body{
-    background-color: rgb(41, 41, 129);
+body {
+  background-color: rgb(29, 29, 87);
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+header {
+  position: fixed;
+  background-color: rgb(77, 145, 235);
+  width: 100%;
+  height: 180px;
+}
+.htitle {
+  padding-left: 30px;
+}
+#hInfo {
+  display: flex;
+}
+#hInfo > h3 {
+  padding-left: 50px;
+}
+#rside {
+  border-left: 1px solid rgb(255, 255, 255);
+  padding-left: 30px;
+}
+#lside {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#exp > div {
+  padding-bottom: 30px;
+}
+main {
+  padding-top: 220px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: fit-content;
+}
+h2.head2 {
+  color: rgb(0, 255, 255);
 }
